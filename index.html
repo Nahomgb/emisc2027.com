@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMISC 2027 — 2nd Ethiopian Minimally Invasive Surgery Conference | MIS Africa</title>
+    <meta name="description" content="Official website of the 2nd Ethiopian Minimally Invasive Surgery Conference (EMISC 2027). Theme: Beyond Training: Building Sustainable Minimally Invasive Surgery for Excellence in Surgical Care. January 25–29, 2027 • Addis Ababa, Ethiopia.">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/locked.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ============================================================ -->
+    <!-- Floating Island Navigation Bar                               -->
+    <!-- ============================================================ -->
+    <div class="site-nav-wrapper">
+        <header class="nav-island">
+            <a href="index.html" class="nav-brand">
+                <img src="assets/images/logo.png" alt="MIS Africa Logo" class="nav-brand-logo">
+                <div class="nav-brand-text">
+                    <span class="nav-brand-title">MIS AFRICA</span>
+                    <span class="nav-brand-tag">Surgical Excellence</span>
+                </div>
+            </a>
+
+            <button class="mobile-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#tracks" class="nav-link">Pillars</a>
+                <a href="#vision" class="nav-link">2027 Vision</a>
+                <a href="#roadmap" class="nav-link">Abstracts</a>
+                <a href="#retrospect" class="nav-link">2026 Recap</a>
+                <a href="#partners" class="nav-link">Partners</a>
+                <a href="registration.html" class="nav-action-btn">
+                    <i class="fas fa-ticket-alt"></i> Register 2027
+                </a>
+            </nav>
+        </header>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- Asymmetrical Luxury Hero Stage                               -->
+    <!-- ============================================================ -->
+    <section class="hero-stage">
+        <div class="container hero-grid">
+            <!-- Left: High-Impact Proclamation -->
+            <div class="hero-left">
+                <div class="hero-live-pill">
+                    <span class="pulse-dot"></span>
+                    <span>2nd Annual Conference &bull; Addis Ababa, Ethiopia</span>
+                </div>
+
+                <h1 class="hero-main-title">
+                    Building Sustainable <br>
+                    <span class="gradient-text">Minimally Invasive</span> <br>
+                    Surgery in Africa
+                </h1>
+
+                <div class="hero-theme-card">
+                    <div class="hero-theme-label">Conference Theme</div>
+                    <div class="hero-theme-quote">
+                        &#x201C;Beyond Training: Building Sustainable Minimally Invasive Surgery for Excellence in Surgical Care&#x201D;
+                    </div>
+                </div>
+
+                <div class="hero-details-row">
+                    <div class="hero-detail-chip">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span><strong>January 25&#x2013;29, 2027</strong></span>
+                    </div>
+                    <div class="hero-detail-chip">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span><strong>Addis Ababa, Ethiopia</strong></span>
+                    </div>
+                    <div class="hero-detail-chip">
+                        <i class="fas fa-globe-africa"></i>
+                        <span>MIS Africa — Advancing Minimally Invasive Surgery Across Africa</span>
+                    </div>
+                </div>
+
+                <div class="hero-cta-group">
+                    <a href="registration.html" class="btn-hero-primary">
+                        <i class="fas fa-user-check"></i> Register for EMISC 2027
+                    </a>
+                    <a href="#retrospect" class="btn-hero-secondary">
+                        <i class="fas fa-history"></i> EMIS 2026 Recap
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right: 3D-Tilt Brand Display Card & Live Countdown -->
+            <div class="hero-right">
+                <div class="hero-display-card">
+                    <div class="logo-showcase-box">
+                        <img src="assets/images/emisc_2027_logo.png" alt="EMISC 2027 Logo">
+                    </div>
+
+                    <div class="countdown-strip">
+                        <div class="countdown-title">
+                            <i class="fas fa-hourglass-half" style="color: var(--c-cyan-neon); margin-right: 0.35rem;"></i>
+                            Conference Opens In
+                        </div>
+                        <div class="countdown-grid">
+                            <div class="timer-slot">
+                                <span class="timer-val" id="cd-days">--</span>
+                                <span class="timer-unit">Days</span>
+                            </div>
+                            <div class="timer-slot">
+                                <span class="timer-val" id="cd-hours">--</span>
+                                <span class="timer-unit">Hours</span>
+                            </div>
+                            <div class="timer-slot">
+                                <span class="timer-val" id="cd-minutes">--</span>
+                                <span class="timer-unit">Mins</span>
+                            </div>
+                            <div class="timer-slot">
+                                <span class="timer-val" id="cd-seconds">--</span>
+                                <span class="timer-unit">Secs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- Infinite Live Marquee Ribbon                                 -->
+    <!-- ============================================================ -->
+    <div class="marquee-band">
+        <div class="marquee-content">
+            ETHIOPIAN MINIMALLY INVASIVE SURGERY CONFERENCE 2027 <span>✦</span>
+            ABSTRACT AND VIDEO SUBMISSION IS OPEN <span>✦</span>
+            BEYOND TRAINING: BUILDING SUSTAINABLE MIS <span>✦</span>
+            JANUARY 25–29, 2027 <span>✦</span>
+            ADDIS ABABA, ETHIOPIA <span>✦</span>
+            LIVE TELESURGERIES &amp; DRY LAB <span>✦</span>
+            SURGICAL EDUCATOR ACADEMY <span>✦</span>
+            300+ SURGICAL LEADERS &amp; DELEGATES <span>✦</span>
+            UNIVERSAL BASIC LAPAROSCOPY <span>✦</span>
+            ETHIOPIAN MINIMALLY INVASIVE SURGERY CONFERENCE 2027 <span>✦</span>
+            ABSTRACT AND VIDEO SUBMISSION IS OPEN <span>✦</span>
+            BEYOND TRAINING: BUILDING SUSTAINABLE MIS <span>✦</span>
+            JANUARY 25–29, 2027 <span>✦</span>
+            ADDIS ABABA, ETHIOPIA <span>✦</span>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- Metrics Bar (Impact at a Glance)                             -->
+    <!-- ============================================================ -->
+    <section class="metrics-row">
+        <div class="container">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-number">5 Days</div>
+                    <div class="metric-label">Limited Pre-Conference Spots with Masterclasses, Live Surgeries &amp; Plenaries</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">300+</div>
+                    <div class="metric-label">Surgeons, Residents, Nurses &amp; Bio-Engineers</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">10+</div>
+                    <div class="metric-label">Live OR Broadcasts &amp; Simulation Hours</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number" style="font-size: clamp(1.65rem, 2vw, 2.2rem); line-height: 1.15;">Inter-Institutional</div>
+                    <div class="metric-label">Collaboration Across Ethiopia &amp; Extending to Africa</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- Core Conference Pillars (Architectural Grid)                 -->
+    <!-- ============================================================ -->
+    <section id="tracks" class="section-wrapper surface-alt">
+        <div class="container">
+            <div class="section-lead">
+                <span class="lead-chip"><i class="fas fa-layer-group"></i> Scientific Architecture</span>
+                <h2 class="section-heading">Four Pillars of EMISC 2027</h2>
+                <p class="section-desc">
+                    Moving beyond individual clinical training towards institutional sustainability, regional capacity, and safe laparoscopic infrastructure.
+                </p>
+            </div>
+
+            <div class="pillars-architecture">
+                <!-- Pillar 01 -->
+                <div class="pillar-arch-card">
+                    <div class="arch-card-top">
+                        <span class="arch-index">01</span>
+                        <div class="arch-icon"><i class="fas fa-hand-holding-medical"></i></div>
+                    </div>
+                    <h3>Universal Basic Laparoscopic Training</h3>
+                    <p>
+                        Every surgeon, surgical fellow, and resident must attain accredited basic laparoscopic training at least once. We champion standardized foundational simulation and dry-lab competencies across all surgical staff, ensuring a safe, consistent baseline before entering the operating room.
+                    </p>
+                </div>
+
+                <!-- Pillar 02 -->
+                <div class="pillar-arch-card">
+                    <div class="arch-card-top">
+                        <span class="arch-index">02</span>
+                        <div class="arch-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    </div>
+                    <h3>Advanced Hands-on Laparoscopic Training</h3>
+                    <p>
+                        Bringing together experienced surgeons, surgical educators, and trainees to explore advanced laparoscopic techniques, emerging surgical technologies, and innovative approaches to minimally invasive surgery. Through expert-led masterclasses, live demonstrations, simulation-based sessions, and hands-on workshops, we aim to facilitate knowledge exchange, refine surgical skills, and advance technical excellence in laparoscopic surgery across Africa.
+                    </p>
+                </div>
+
+                <!-- Pillar 03 -->
+                <div class="pillar-arch-card">
+                    <div class="arch-card-top">
+                        <span class="arch-index">03</span>
+                        <div class="arch-icon"><i class="fas fa-hospital-user"></i></div>
+                    </div>
+                    <h3>Optimized MIS Access &amp; Patient Rights</h3>
+                    <p>
+                        Minimally invasive surgery must be systematically optimized across every surgical specialty and teaching referral center. We uphold that every patient has an essential right to access minimally invasive surgery, benefiting from tissue-sparing precision, faster recovery, and lower surgical morbidity.
+                    </p>
+                </div>
+
+                <!-- Pillar 04 -->
+                <div class="pillar-arch-card">
+                    <div class="arch-card-top">
+                        <span class="arch-index">04</span>
+                        <div class="arch-icon"><i class="fas fa-handshake"></i></div>
+                    </div>
+                    <h3>Inter-Hospital &amp; Inter-Institutional Collaboration</h3>
+                    <p>
+                        Strengthening inter-organizational partnerships and hospital collaboration within Ethiopia while extending linkages across Africa to advance health equity and modern surgical access. Uniting institutions nationwide and regionally to facilitate shared surgical training, faculty exchanges, resource pooling, and collective innovation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- 2027 Vision Manifesto & Registration Call                    -->
+    <!-- ============================================================ -->
+    <section id="vision" class="section-wrapper" style="padding-top: 0;">
+        <div class="container">
+            <div class="manifesto-box">
+                <div>
+                    <span class="lead-chip gold" style="margin-bottom: 1rem;"><i class="fas fa-compass"></i> The 2027 Manifesto</span>
+                    <h2 class="manifesto-title">Elevating Surgical Care Across East Africa</h2>
+                    <p class="manifesto-body">
+                        The 2nd Ethiopian Minimally Invasive Surgery Conference marks a transformative milestone. We are shifting from short-term training workshops to building long-term, self-sustaining minimally invasive surgical ecosystems in public and teaching hospitals.
+                    </p>
+                    <div class="manifesto-points">
+                        <div class="manifesto-point-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Comprehensive 5-day educational immersive program in Addis Ababa</span>
+                        </div>
+                        <div class="manifesto-point-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Equipping multi-disciplinary teams: Surgeons, Residents, OR Nurses &amp; Bioengineers</span>
+                        </div>
+                        <div class="manifesto-point-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Collaboration between North American, European &amp; African surgical societies</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="manifesto-action-card">
+                    <span class="action-card-badge">Open Registration</span>
+                    <h4 class="action-card-h4">Join the Summit</h4>
+                    <p class="action-card-p">
+                        Secure your attendance for the premier MIS gathering in East Africa. Limited workshop seats allocated on a priority basis.
+                    </p>
+                    <a href="registration.html" class="btn-hero-primary" style="width: 100%; justify-content: center;">
+                        <i class="fas fa-ticket-alt"></i> Complete Registration
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- About MIS Africa Section (Story & Slideshow)                 -->
+    <!-- ============================================================ -->
+    <section id="about" class="section-wrapper surface-alt">
+        <div class="container about-layout">
+            <div class="about-narrative">
+                <span class="lead-chip"><i class="fas fa-shield-alt"></i> Our Mission</span>
+                <h2>Expanding Minimally Invasive Surgery in LMICs</h2>
+                <p>
+                    MIS Africa was founded by a coalition of close surgeon friends united by a shared vision: to expand access to minimally invasive surgery across low- and middle-income countries, starting with Ethiopia.
+                </p>
+                <div class="quote-highlight">
+                    &#x201C;Our mission is to elevate healthcare quality by advancing structured MIS training, simulation, and evidence-based surgical mentorship.&#x201D;
+                </div>
+                <p>
+                    To date, MIS Africa has equipped several teaching hospitals and trained over <strong>100 surgeons, surgical residents, OR nurses, and biomedical engineers</strong>, contributing to sustainable patient outcomes and surgical dignity.
+                </p>
+            </div>
+
+            <div class="about-visual">
+                <div class="slideshow-frame">
+                    <div class="slide active">
+                        <img src="assets/images/about-slide-10.png" alt="Advanced Laparoscopy Simulation Lab">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-22.jpg" alt="Robotic Surgery Console &amp; Modern Technologies">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-21.jpg" alt="Live Surgical Operations &amp; Operating Room Team">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-18.jpg" alt="Faculty Mentorship &amp; Surgical Skills Practice">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-5.jpg" alt="Certificate Graduation Ceremony">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-8.png" alt="Scientific Workshop &amp; Panels">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-11.png" alt="Conference Delegates &amp; Surgeons in Session">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-14.jpg" alt="Laparoscopic Instrument Mastery">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-11.jpg" alt="MIS Africa Training Session">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-121.jpg" alt="Surgical Workshop Highlights">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-122.jpg" alt="Conference Activities">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-123.jpg" alt="Surgical Education Moments">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/about-slide-124.JPG" alt="MIS Africa Programme">
+                    </div>
+                </div>
+                <div class="slideshow-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- Abstract Submission & 2027 Program Roadmap                   -->
+    <!-- ============================================================ -->
+    <section id="roadmap" class="section-wrapper">
+        <div class="container">
+            <div class="roadmap-card">
+                <div class="roadmap-posters">
+                    <img src="assets/images/Call for Abstracts Open_left.jpg" 
+                         alt="Call for Abstracts Open - Left" 
+                         class="roadmap-poster-img"
+                         onclick="openImageModal('assets/images/Call for Abstracts Open_left.jpg', 'Call for Abstracts and Video Submission')"
+                         title="Click to view full poster">
+                    <img src="assets/images/Call for Abstracts Open_right.jpg" 
+                         alt="Call for Abstracts Open - Right" 
+                         class="roadmap-poster-img"
+                         onclick="openImageModal('assets/images/Call for Abstracts Open_right.jpg', 'Call for Abstracts and Video Submission')"
+                         title="Click to view full poster">
+                </div>
+                <span class="lead-chip gold"><i class="fas fa-bullhorn"></i> Call for Abstracts Open</span>
+                <h2 style="font-size: 2.2rem; color: var(--c-navy-dark); margin: 0.8rem 0 1rem;">
+                    Abstract and Video Submission is Open
+                </h2>
+                <p style="color: var(--c-text-muted); font-size: 1.05rem; max-width: 680px; margin: 0 auto 2rem; line-height: 1.7;">
+                    Abstract submission is officially open! We invite surgeons, residents, researchers, and multidisciplinary healthcare teams to submit their scientific abstracts, surgical videos, and clinical case studies for presentation at EMIS 2027.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="https://app.oxfordabstracts.com/stages/84400/submitter" target="_blank" rel="noopener" class="btn-hero-primary" style="font-weight: 700;">
+                        <i class="fas fa-paper-plane"></i> Submit Abstract Online
+                    </a>
+                    <a href="https://app.oxfordabstracts.com/auth?redirect=/stages/84400/submitter" target="_blank" rel="noopener" class="btn-hero-secondary" style="background: var(--c-navy-dark); color: #ffffff;">
+                        <i class="fas fa-video"></i> Submit a Video abstract
+                    </a>
+                </div>
+                <p style="margin-top: 1.5rem; font-size: 0.9rem; color: var(--c-text-light);">
+                    <i class="fas fa-external-link-alt" style="color: var(--c-blue-primary); margin-right: 0.35rem;"></i> Submissions are managed securely via <strong>Oxford Abstracts</strong>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- EMISC 2026 IN RETROSPECT (Archive & Remembrance Section)     -->
+    <!-- ============================================================ -->
+    <section id="retrospect" class="retrospect-section">
+        <div class="container">
+            <div class="section-lead">
+                <span class="lead-chip"><i class="fas fa-monument"></i> Historical Milestone</span>
+                <h2 class="section-heading">EMIS 2026 Recap</h2>
+                <p class="section-desc">
+                    In April 2026, MIS Africa hosted the groundbreaking 1st Ethiopian Minimally Invasive Surgery Conference under the theme <em>&#x201C;Safe Approach, Safe Surgery: Expanding Minimally Invasive Services in Ethiopia for Better Health Outcomes.&#x201D;</em>
+                </p>
+            </div>
+
+            <!-- Brief Keynote Spotlight -->
+            <div class="keynote-spotlight-card">
+                <div class="keynote-spotlight-avatar">
+                    <img src="assets/images/dr_david_jeffcoach.png" alt="Dr. David Jeffcoach">
+                </div>
+                <div class="keynote-spotlight-info">
+                    <span class="keynote-chip">Keynote Speaker &bull; EMISC 2026</span>
+                    <h3 class="keynote-name">Dr. David Jeffcoach, MD, FACS</h3>
+                    <p class="keynote-title">Associate Clinical Professor of Surgery &ndash; UCSF Fresno &bull; Former Chair of Surgery, PAACS Soddo Christian Hospital</p>
+                    <p class="keynote-brief">
+                        Dr. Jeffcoach is a trauma and critical care surgeon with global leadership in trauma systems and laparoscopic simulation training. Serving for four years in Ethiopia, he helped establish foundational MIS programs and residency education across the country.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Historical 2026 Poster Card -->
+            <div class="retrospect-poster-card">
+                <img src="assets/images/hero-slide-6.jpg" 
+                     alt="EMISC 2026 Official Poster" 
+                     class="retrospect-poster-img"
+                     onclick="openImageModal('assets/images/hero-slide-6.jpg', 'EMISC 2026 Official Poster')">
+                <div class="retrospect-poster-text">
+                    <span class="lead-chip" style="margin-bottom: 0.6rem;">Inaugural Record</span>
+                    <h4>EMISC 2026: Recap</h4>
+                    <p><strong>Theme:</strong> Safe Approach, Safe Surgery: Expanding Minimally Invasive Services in Ethiopia for Better Health Outcomes</p>
+                    <p><strong>Convened:</strong> April 13&#x2013;17, 2026 &bull; Addis Ababa, Ethiopia</p>
+                    <p>The inaugural conference convened over 100 surgical leaders, residents, OR nurses, and biomedical engineers alongside international faculty from UCSF Fresno, PAACS, and Europe. It launched continuous hands-on simulation training in Ethiopia.</p>
+                    <p style="font-size: 0.88rem; color: var(--c-text-light); font-style: italic;">
+                        <i class="fas fa-search-plus"></i> Click poster to view high-resolution archive.
+                    </p>
+                </div>
+            </div>
+
+            <!-- EMIS 2027 Faculty Section -->
+            <div style="margin-bottom: 4rem;">
+                <h3 style="font-size: 1.8rem; color: var(--c-navy-dark); margin-bottom: 2rem;">
+                    <i class="fas fa-users" style="color: var(--c-blue-primary); margin-right: 0.5rem;"></i> EMIS 2027 Faculty
+                </h3>
+                <div class="panelists-grid" id="emis2027-faculty-grid">
+                    <!-- Dr. Efeson Thomas -->
+                    <div class="panelist-card">
+                        <div class="panelist-img" onclick="openImageModal('assets/images/dr_efeson_thomas.jpg', 'Dr. Efeson Thomas')" style="cursor: zoom-in;">
+                            <img src="assets/images/dr_efeson_thomas.jpg" alt="Dr. Efeson Thomas">
+                        </div>
+                        <div class="panelist-info">
+                            <h3>Dr. Efeson Thomas</h3>
+                            <p class="role">MD, FACS, FCS(ECSA) • General, Colorectal &amp; Minimally Invasive Surgery</p>
+                            <p class="institution">MCM-CSH (Korea Hospital)</p>
+                            <p class="panelist-bio">Dr. Efeson Thomas is a general and colorectal surgeon with expertise in minimally invasive gastrointestinal surgery and endoscopy. He serves as Chair of the Department of Surgery at Korean Hospital, Assistant Professor of Surgery at MMC, and Co-founder &amp; CEO of MIS Africa. He has over nine years of experience in surgical education, minimally invasive surgery, and clinical leadership.</p>
+                        </div>
+                    </div>
+                    <!-- Dr. Filagot Bizuneh -->
+                    <div class="panelist-card">
+                        <div class="panelist-img" onclick="openImageModal('assets/images/dr_filagot_bizuneh.jpg', 'Dr. Filagot Bizuneh')" style="cursor: zoom-in;">
+                            <img src="assets/images/dr_filagot_bizuneh.jpg" alt="Dr. Filagot Bizuneh">
+                        </div>
+                        <div class="panelist-info">
+                            <h3>Dr. Filagot Bizuneh</h3>
+                            <p class="role">MD, FCS-ECSA, General Surgery</p>
+                            <p class="institution">MCM-CSH (Korean Hospital)</p>
+                            <p class="panelist-bio">Dr. Filagot Bizuneh is a general surgeon and surgical educator at MCM-CSH (Korean Hospital). He serves as Co-founder and Vice Chairman of the Board of Directors at MIS Africa, Assistant Professor of Surgery, and Postgraduate Surgery Program Director at MMC. His work focuses on surgical training, academic leadership, and advancing minimally invasive surgery education in Africa.</p>
+                        </div>
+                    </div>
+                    <!-- Dr. Muse Freneh -->
+                    <div class="panelist-card">
+                        <div class="panelist-img" onclick="openImageModal('assets/images/dr.Mussie_Freneh.png', 'Dr. Muse Freneh')" style="cursor: zoom-in;">
+                            <img src="assets/images/dr.Mussie_Freneh.png" alt="Dr. Muse Freneh">
+                        </div>
+                        <div class="panelist-info">
+                            <h3>Dr. Muse Freneh</h3>
+                            <p class="role">MD, FCS (ECSA) • Pediatric Surgeon</p>
+                            <p class="institution">MCSH (Korean Hospital)</p>
+                            <p class="panelist-bio">Dr. Muse Freneh is a pediatric surgeon at MCSH (Korean Hospital) with experience in laparoscopic surgery and surgical research. He received the 2024 Judah Folkman Award from the American Pediatric Surgical Association for outstanding research and was recognized as the Best Paediatric Surgery Candidate by COSECSA in 2025.</p>
+                        </div>
+                    </div>
+                    <!-- Dr. Philimon Getu -->
+                    <div class="panelist-card">
+                        <div class="panelist-img" onclick="openImageModal('assets/images/Dr. Philimon Getu.jpg', 'Dr. Philimon Getu')" style="cursor: zoom-in;">
+                            <img src="assets/images/Dr. Philimon Getu.jpg" alt="Dr. Philimon Getu">
+                        </div>
+                        <div class="panelist-info">
+                            <h3>Dr. Philimon Getu</h3>
+                            <p class="role">MD, FCS (ECSA) • General Surgeon</p>
+                            <p class="institution">MCSH (Korean Hospital)</p>
+                            <p class="panelist-bio">Dr. Philimon Getu is a general surgeon and Assistant Professor of Surgery at MCSH (Korean Hospital). He has expertise in laparoscopic surgery, surgical research, and surgical education, with a strong commitment to advancing high-quality patient care and academic excellence. He was awarded the Lindsay Stewart Prize in 2023 at the COSECSA Council Meeting.</p>
+                        </div>
+                    </div>
+                    <!-- Dr. Sengi Bekele Wako -->
+                    <div class="panelist-card">
+                        <div class="panelist-img" onclick="openImageModal('assets/images/dr_segni_bekele.png', 'Dr. Sengi Bekele Wako')" style="cursor: zoom-in;">
+                            <img src="assets/images/dr_segni_bekele.png" alt="Dr. Sengi Bekele Wako">
+                        </div>
+                        <div class="panelist-info">
+                            <h3>Dr. Sengi Bekele Wako</h3>
+                            <p class="role">MD, FCS(ECSA) • Surgeon | Co-founder &amp; Board Chair, MIS Africa</p>
+                            <p class="institution">Grand Bishoftu Hospital</p>
+                            <p class="panelist-bio">Dr. Segni Bekele is a surgeon with over nine years of experience in clinical care, surgical education, and leadership. He is Co-founder and Board Chair of MIS Africa, with experience in laparoscopic surgery and a strong commitment to advancing minimally invasive surgery and medical education.</p>
+                        </div>
+                    </div>
+                    <!-- Dr. Surafel Mulatu Djote -->
+                    <div class="panelist-card">
+                        <div class="panelist-img" onclick="openImageModal('assets/images/dr_surafel_mulatu.jpg', 'Dr. Surafel Mulatu Djote')" style="cursor: zoom-in;">
+                            <img src="assets/images/dr_surafel_mulatu.jpg" alt="Dr. Surafel Mulatu Djote">
+                        </div>
+                        <div class="panelist-info">
+                            <h3>Dr. Surafel Mulatu Djote</h3>
+                            <p class="role">MD, FACS, FCS (ECSA) • General, Advanced Laparoscopic &amp; Colorectal Surgeon</p>
+                            <p class="institution">Yekatit 12 Hospital Medical College</p>
+                            <p class="panelist-bio">Dr. Surafel Mulatu Djote is a consultant surgeon with expertise in general, advanced laparoscopic, and colorectal surgery. He is the Founder and CEO of GoLap and is committed to advancing minimally invasive surgery while improving patient outcomes through innovation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2026 Program Schedule Archive -->
+            <div style="margin-bottom: 4.5rem;">
+                <h3 style="font-size: 1.8rem; color: var(--c-navy-dark); margin-bottom: 2rem;">
+                    <i class="fas fa-calendar-alt" style="color: var(--c-blue-primary); margin-right: 0.5rem;"></i> EMISC 2026 Scientific Program
+                </h3>
+                <div id="schedule-container" class="schedule-container">
+                    <!-- Populated dynamically via js/schedule.js -->
+                </div>
+            </div>
+
+            <!-- EMISC 2026 Photo Gallery Folder (Openable Archive) -->
+            <div class="gallery-folder-container">
+                <div class="gallery-folder-card">
+                    <div class="folder-visual">
+                        <div class="folder-tab">
+                            <i class="fas fa-folder-open"></i> EMISC 2026 Archive
+                        </div>
+                        <div class="folder-preview-stack">
+                            <img src="assets/images/EMISC 0.jpg" alt="EMISC 2026 Preview" class="folder-thumb thumb-1">
+                            <div class="folder-badge-overlay">
+                                <i class="fas fa-camera"></i> 17 Photos
+                            </div>
+                        </div>
+                    </div>
+                    <div class="folder-details">
+                        <span class="lead-chip" style="margin-bottom: 0.75rem;"><i class="fas fa-archive"></i> Historical Milestone Archive</span>
+                        <h3 class="folder-title">EMISC 2026 — Photo Gallery Folder</h3>
+                        <p class="folder-desc">
+                            Highlights from simulation training, operating theater telecasts, lecture halls, and award ceremonies from the inaugural EMISC 2026 in Addis Ababa.
+                        </p>
+                        <div class="folder-actions">
+                            <button id="toggle-gallery-folder-btn" class="btn btn-primary" onclick="toggleGalleryFolder()" style="display: inline-flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <i class="fas fa-folder-open" id="toggle-folder-icon"></i>
+                                <span id="toggle-folder-text">Open Photo Folder (17 Photos)</span>
+                            </button>
+                            <a href="gallery.html" class="btn btn-outline" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                                <i class="fas fa-external-link-alt"></i> Open in Dedicated Gallery Page
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Collapsible Gallery Drawer (Closed by default on Home Page) -->
+                <div class="gallery-folder-drawer" id="gallery-folder-drawer" style="display: none; margin-top: 2rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: #eaf3f8; border-radius: var(--r-md); border: 1px solid var(--c-border-subtle);">
+                        <span style="font-weight: 700; color: var(--c-navy-dark); font-size: 1.05rem;">
+                            <i class="fas fa-images" style="color: var(--c-blue-primary); margin-right: 0.4rem;"></i> EMISC 2026 — Archival Photographs (17 Items)
+                        </span>
+                        <button class="btn btn-outline" style="padding: 0.35rem 0.85rem; font-size: 0.85rem;" onclick="toggleGalleryFolder()">
+                            <i class="fas fa-times"></i> Close Folder
+                        </button>
+                    </div>
+                    <div class="gallery-grid" id="emisc2026-gallery">
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 0.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 0.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 1.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 1.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 2.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 2.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 3.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 3.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 4.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 4.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC5.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC5.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 6.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 6.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 7.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 7.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 8.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 8.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 9.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 9.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 10.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 10.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 11.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 11.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 12.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 12.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 13.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 13.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 14.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 14.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 15.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 15.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                        <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 16.jpg', 'EMISC 2026')">
+                            <img src="assets/images/EMISC 16.jpg" alt="EMISC 2026" loading="lazy">
+                            <div class="gallery-caption">EMISC 2026</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- Partners & Institutional Sponsors                            -->
+    <!-- ============================================================ -->
+    <section id="partners" class="partners-section">
+        <div class="container">
+            <div class="section-lead">
+                <span class="lead-chip gold"><i class="fas fa-handshake"></i> Collaborators</span>
+                <h2 class="section-heading">Our Institutional Partners</h2>
+                <p class="section-desc">
+                    Collaborating with premier hospital centers, surgical colleges, and medical innovators across the globe.
+                </p>
+            </div>
+
+            <div class="partners-logo-grid">
+                <a href="https://medsurgsupport.org/en/home/" target="_blank" rel="noopener" class="partner-box">
+                    <img src="assets/images/med_surg_logo.png" alt="Med Surg Support">
+                </a>
+                <a href="#" class="partner-box featured">
+                    <img src="assets/images/logo.png" alt="MIS Africa Centerpiece">
+                </a>
+            </div>
+
+            <!-- Organising Committee -->
+            <div style="margin-top: 4rem; margin-bottom: 4rem;">
+                <h3 style="font-size: 1.8rem; color: var(--c-navy-dark); margin-bottom: 0.5rem; text-align: center;">
+                    <i class="fas fa-star" style="color: var(--c-blue-primary); margin-right: 0.5rem;"></i> Organising Committee
+                </h3>
+                <p style="color: var(--c-text-muted); text-align: center; margin-bottom: 2.5rem; font-size: 1rem;">Meet the leadership driving EMIS 2027 forward</p>
+                <div style="display: flex; justify-content: center;">
+                    <div style="background: #ffffff; border: 1px solid var(--c-border-subtle); border-radius: 1.25rem; padding: 2.5rem 2.25rem; max-width: 680px; width: 100%; text-align: center; box-shadow: 0 10px 30px rgba(8, 56, 76, 0.08);">
+                        <div style="width: 140px; height: 140px; border-radius: 50%; overflow: hidden; margin: 0 auto 1.25rem; border: 3px solid var(--c-blue-primary); box-shadow: 0 6px 20px rgba(74, 150, 183, 0.25);">
+                            <img src="assets/images/dr_efeson_thomas1.jpg" alt="Dr. Efeson Thomas" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <h4 style="color: var(--c-navy-dark); font-size: 1.45rem; font-weight: 800; margin-bottom: 0.4rem;">Dr. Efeson Thomas</h4>
+                        <p style="color: var(--c-blue-hover); font-size: 0.95rem; font-weight: 600; margin-bottom: 0.35rem;">MD, FACS, FCS(ECSA) • General, Colorectal &amp; Minimally Invasive Surgery</p>
+                        <p style="color: var(--c-text-muted); font-size: 0.92rem; font-weight: 500; margin-bottom: 1.35rem;">MCM-CSH (Korea Hospital)</p>
+                        <blockquote style="color: var(--c-navy-dark); background: var(--c-blue-frost); font-style: italic; font-size: 1rem; line-height: 1.7; border-left: 4px solid var(--c-blue-primary); border-radius: 0.5rem; padding: 1.1rem 1.25rem; text-align: left; margin: 0 0 1.25rem;">
+                            "Minimally Invasive Surgery (MIS) is not a luxury reserved for affluent patients. It is an essential component of modern surgical care that should be accessible to everyone who needs it."
+                        </blockquote>
+                        <p style="color: var(--c-text-body); font-size: 0.95rem; line-height: 1.7; text-align: left; margin-bottom: 0.85rem;">
+                            Considering its many advantages over conventional open surgery, MIS may be even more beneficial to patients in Low- and Middle-Income Countries (LMICs), where reducing surgical trauma, shortening hospital stays, facilitating faster recovery, and minimizing the economic burden of illness can make a significant difference.
+                        </p>
+                        <p style="color: var(--c-text-body); font-size: 0.95rem; line-height: 1.7; text-align: left; margin-bottom: 1.25rem;">
+                            In Africa, access to MIS should not be determined by a patient's income or geographical location. MIS Africa exists to bridge the gap in access to minimally invasive surgery across the continent — promoting its availability, affordability, and sustainability across all surgical specialties.
+                        </p>
+                        <p style="color: var(--c-navy-dark); font-weight: 700; font-size: 1rem; margin-top: 1.25rem; text-align: center; background: var(--c-blue-frost); padding: 0.9rem 1.2rem; border-radius: 0.6rem; border: 1px solid var(--c-blue-sky);">
+                            Our vision: <span style="color: var(--c-blue-hover); font-weight: 800;">Making MIS accessible and affordable for every patient who needs it, across Africa.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Partner Contact Card -->
+            <div class="partner-contact-card">
+                <h3 style="font-size: 2rem; color: var(--c-navy-dark); margin-bottom: 0.75rem;">Sponsor &amp; Exhibit at EMISC 2027</h3>
+                <p style="color: #64748b; font-size: 1.05rem; line-height: 1.7; max-width: 650px; margin: 0 auto 1.5rem;">
+                    Showcase surgical devices, pharmaceutical solutions, and hospital technology directly to leading surgeons and hospital executives.
+                </p>
+                <a href="mailto:emisc2027@misafrica.org" class="partner-email-link">emisc2027@misafrica.org</a>
+                <p class="partner-phone-text">
+                    <i class="fas fa-phone-alt"></i> +251 970 83 70 70 &bull; +251 92 280 75 69 &bull; +251 96 204 6517
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- Footer                                                       -->
+    <!-- ============================================================ -->
+    <footer class="footer-wrap">
+        <div class="container footer-content-grid">
+            <div class="footer-col">
+                <div class="nav-brand" style="margin-bottom: 1.25rem;">
+                    <img src="assets/images/logo.png" alt="MIS Africa Logo" style="height: 42px; filter: brightness(0) invert(1);">
+                    <div class="nav-brand-text">
+                        <span class="nav-brand-title">MIS AFRICA</span>
+                        <span class="nav-brand-tag">Surgical Excellence</span>
+                    </div>
+                </div>
+                <p class="footer-tagline-text">
+                    2nd Ethiopian Minimally Invasive Surgery Conference &bull; EMISC 2027<br>
+                    Advancing surgical standards through evidence-based training and resilient healthcare systems.
+                </p>
+                <p style="margin-bottom: 1.5rem;">
+                    <a href="https://maps.app.goo.gl/M9Q9n6Bb2xmbKvdm7" target="_blank" rel="noopener" style="color: #cbd5e1; display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.92rem;">
+                        <i class="fas fa-map-marker-alt" style="color: var(--c-cyan-neon);"></i> View Conference Venue on Google Maps
+                    </a>
+                </p>
+                <div class="social-pill-row">
+                    <a href="https://www.youtube.com/@MISAfrica" target="_blank" rel="noopener" class="social-pill" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/misafrica/" target="_blank" rel="noopener" class="social-pill" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:emisc2027@misafrica.org" class="social-pill" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <div class="footer-contact-item"><i class="fas fa-phone"></i> +251 703 200 410</div>
+                <div class="footer-contact-item"><i class="fas fa-envelope"></i> <a href="mailto:emisc2027@misafrica.org">emisc2027@misafrica.org</a></div>
+                <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</div>
+                <div class="footer-contact-item"><i class="fas fa-calendar-alt"></i> January 25&#x2013;29, 2027</div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Stay Updated</h3>
+                <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 1.25rem;">
+                    Subscribe to receive official session alerts, faculty announcements, and early registration notices.
+                </p>
+                <form id="subscribe-form">
+                    <div class="newsletter-pill">
+                        <input type="email" id="subscriber-email" placeholder="Your work email" required>
+                        <button type="submit" class="newsletter-submit" aria-label="Subscribe">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+                <div id="subscribe-message" style="margin-top: 0.6rem; font-size: 0.85rem;"></div>
+            </div>
+        </div>
+
+        <div class="copyright-strip">
+            <div class="container">
+                <p>&copy; 2027 MIS Africa (Minimally Invasive Surgery Africa). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/countdown.js"></script>
+    <script src="js/schedule.js"></script>
+    <script src="js/hero-slider.js"></script>
+    <script src="js/about-slideshow.js"></script>
+    <script src="js/mobile-nav.js"></script>
+    <script src="js/subscribe.js"></script>
+</body>
+
+</html>
