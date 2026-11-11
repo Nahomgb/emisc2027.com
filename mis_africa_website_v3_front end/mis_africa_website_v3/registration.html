@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration — 2nd Ethiopian Minimally Invasive Surgery Conference (EMISC 2027)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .registration-hero {
+            background: radial-gradient(circle at 80% 20%, rgba(163, 205, 224, 0.45) 0%, transparent 55%),
+                        linear-gradient(160deg, #EAF3F7 0%, #F5F9FC 45%, #E2EEF5 100%);
+            padding: 4.5rem 1.5rem 5.5rem;
+            color: var(--c-navy-dark);
+            text-align: center;
+            position: relative;
+            border-bottom: 1px solid var(--c-border-subtle);
+        }
+
+        .registration-hero h1 {
+            color: var(--c-navy-dark);
+            font-size: 2.8rem;
+            margin-bottom: 0.8rem;
+            letter-spacing: -0.5px;
+        }
+
+        .registration-container {
+            max-width: 900px;
+            margin: -3rem auto 5rem;
+            background: #ffffff;
+            padding: 3.5rem;
+            border-radius: var(--r-lg);
+            box-shadow: var(--shadow-card);
+            position: relative;
+            z-index: 10;
+            border: 1px solid var(--c-border-subtle);
+        }
+
+        .form-section {
+            margin-bottom: 2.5rem;
+            border-bottom: 1px solid var(--c-border-light);
+            padding-bottom: 2.2rem;
+        }
+
+        .form-section:last-child {
+            border-bottom: none;
+        }
+
+        .form-section h2 {
+            font-size: 1.45rem;
+            color: var(--c-blue-primary);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group.full-width {
+            grid-column: span 2;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.9rem 1rem;
+            border: 1px solid #cbd5e1;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-main);
+            font-size: 1rem;
+            transition: all 0.25s ease;
+            background: #ffffff;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--c-blue-primary);
+            box-shadow: 0 0 0 3px rgba(74, 150, 183, 0.18);
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+            margin-top: 1rem;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 0.85rem;
+            cursor: pointer;
+            padding: 0.75rem 1rem;
+            background: #f8fafc;
+            border-radius: var(--radius-sm);
+            border: 1px solid #e2e8f0;
+            transition: background 0.2s ease, border-color 0.2s ease;
+        }
+
+        .checkbox-item:hover {
+            background: #EBF4F8;
+            border-color: var(--c-blue-primary);
+        }
+
+        .checkbox-item input {
+            width: auto;
+            accent-color: var(--c-blue-primary);
+            cursor: pointer;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1.2rem;
+            font-size: 1.15rem;
+            margin-top: 1.5rem;
+            border-radius: var(--radius-full);
+        }
+
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 3rem 1.5rem;
+        }
+
+        .success-message i {
+            font-size: 4rem;
+            color: #10b981;
+            margin-bottom: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-group.full-width {
+                grid-column: span 1;
+            }
+
+            .registration-container {
+                padding: 1.8rem;
+                margin-top: -2.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Floating Island Navigation Bar -->
+    <div class="site-nav-wrapper">
+        <header class="nav-island">
+            <a href="index.html" class="nav-brand">
+                <img src="assets/images/logo.png" alt="MIS Africa Logo" class="nav-brand-logo">
+                <div class="nav-brand-text">
+                    <span class="nav-brand-title">MIS AFRICA</span>
+                    <span class="nav-brand-tag">Surgical Excellence</span>
+                </div>
+            </a>
+
+            <button class="mobile-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About Us</a>
+                <a href="index.html#tracks" class="nav-link">Pillars</a>
+                <a href="index.html#vision" class="nav-link">2027 Vision</a>
+                <a href="index.html#roadmap" class="nav-link">Program</a>
+                <a href="index.html#retrospect" class="nav-link">2026 Recap</a>
+                <a href="registration.html" class="nav-action-btn">
+                    <i class="fas fa-ticket-alt"></i> Register 2027
+                </a>
+            </nav>
+        </header>
+    </div>
+
+    <section class="registration-hero">
+        <div class="container">
+            <img src="assets/images/emisc_2027_logo.png" alt="EMISC 2027 Logo" style="max-width: 130px; margin: 0 auto 1.5rem; display: block; border-radius: 12px; background: #ffffff; padding: 10px; box-shadow: var(--shadow-card); border: 1px solid var(--c-border-subtle);">
+            <div class="hero-live-pill" style="margin-bottom: 1.25rem;">
+                <span class="pulse-dot"></span>
+                <span>Official Conference Registration &bull; EMISC 2027</span>
+            </div>
+            <h1>2nd Ethiopian Minimally Invasive Surgery Conference</h1>
+            <p style="font-size: 1.2rem; font-weight: 600; color: var(--c-navy-dark); max-width: 750px; margin: 0 auto 0.75rem; font-style: italic;">
+                &#x201C;Beyond Training: Building Sustainable Minimally Invasive Surgery for Excellence in Surgical Care&#x201D;
+            </p>
+            <p style="font-size: 1.05rem; color: var(--c-blue-primary); font-weight: 700;">
+                <i class="fas fa-calendar-alt"></i> January 25&#x2013;29, 2027 &bull; <i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia
+            </p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="registration-container" id="registration-form-wrapper">
+            <!-- Hidden iframe for native Google Form submission (works reliably on both file:// and live web) -->
+            <iframe name="gform_target_iframe" id="gform_target_iframe" style="display:none;"></iframe>
+
+            <form id="registration-form" 
+                  action="https://docs.google.com/forms/d/e/1FAIpQLSd9lVn3FdlUZ6E4bn06C4KLbvzwyHhPmnMAHUe7GCSzZUancA/formResponse" 
+                  method="POST" 
+                  target="gform_target_iframe">
+                
+                <!-- Personal Information -->
+                <div class="form-section">
+                    <h2><i class="fas fa-user-circle"></i> Delegate Information</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="full-name">Full Name &amp; Title *</label>
+                            <input type="text" id="full-name" name="entry.811189254" required placeholder="e.g. Dr. Jane Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Work Email Address *</label>
+                            <input type="email" id="email" name="entry.341216316" required placeholder="name@institution.org">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone / WhatsApp Number *</label>
+                            <input type="tel" id="phone" name="entry.110902054" required placeholder="+251 ...">
+                        </div>
+                        <div class="form-group">
+                            <label for="specialty">Clinical Specialty / Role *</label>
+                            <select id="specialty" name="entry.1840778451" required>
+                                <option value="" disabled selected>Select your specialty/role</option>
+                                <option value="Surgeon">Consultant Surgeon</option>
+                                <option value="Surgical Resident">Surgical Resident / Fellow</option>
+                                <option value="General Practitioner">General Practitioner</option>
+                                <option value="OR Nurse">OR Scrub / Anesthesia Nurse</option>
+                                <option value="Biomedical Engineer">Biomedical Engineer / Technician</option>
+                                <option value="Medical Student">Medical Student</option>
+                                <option value="__other_option__">Hospital Administrator / Other</option>
+                            </select>
+                            <input type="hidden" name="entry.1840778451.other_option_response" id="other_specialty_input" value="Hospital Administrator / Other">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="institution">Affiliated Hospital / Institution / Medical College *</label>
+                            <input type="text" id="institution" name="entry.423300771" required placeholder="e.g. Tikur Anbessa Specialized Hospital / St. Paul's Hospital">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conference Pass & Session Notice -->
+                <div class="form-section">
+                    <h2><i class="fas fa-calendar-alt"></i> Conference Pass &amp; Sessions</h2>
+                    <div style="background: linear-gradient(135deg, #F3F8FB 0%, #E6F3F8 100%); border: 1px solid #BCD4E0; border-radius: var(--radius-md); padding: 1.5rem 1.8rem; display: flex; gap: 1.25rem; align-items: flex-start;">
+                        <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--c-blue-primary); color: white; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; margin-top: 2px;">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <div>
+                            <h4 style="font-size: 1.15rem; color: var(--c-navy-dark); margin-bottom: 0.35rem;">Full Conference Pass &bull; January 25&#x2013;29, 2027</h4>
+                            <p style="font-size: 0.95rem; color: var(--c-text-body); margin-bottom: 0.75rem; line-height: 1.6;">
+                                Your registration secures your general admission pass for EMISC 2027 in Addis Ababa, including plenary keynotes, scientific symposiums, and live surgical telecasts.
+                            </p>
+                            <span style="display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; font-weight: 700; color: #08384C; background: #D8EBF3; padding: 0.35rem 0.85rem; border-radius: var(--radius-full);">
+                                <i class="fas fa-sparkles"></i> Detailed Workshop &amp; Breakout Session Sign-ups Soon to be Released
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Pre-validated Event Entry for Google Form Checkbox Validation -->
+                    <input type="hidden" name="entry.1753405587" value="Main Conference (April 17)">
+                </div>
+
+                <button type="submit" class="btn btn-primary submit-btn">
+                    <i class="fas fa-check-circle"></i> Confirm Conference Registration
+                </button>
+            </form>
+
+            <div id="success-msg" class="success-message">
+                <i class="fas fa-check-circle"></i>
+                <h2>Registration Confirmed!</h2>
+                <p style="font-size: 1.1rem; color: var(--c-text-body); margin-bottom: 1.5rem;">
+                    Thank you for registering for the <strong>2nd Ethiopian Minimally Invasive Surgery Conference (EMISC 2027)</strong>. A confirmation email with session instructions has been dispatched to your inbox.
+                </p>
+                
+                <!-- Social Media Badge Generator Section -->
+                <div class="badge-generator-section" style="margin-top: 2rem; padding: 2.5rem; background: #F8FBFD; border-radius: var(--radius-lg); border: 1px solid #D8EBF3;">
+                    <h3 style="font-size: 1.4rem; color: var(--c-blue-primary); margin-bottom: 0.5rem;"><i class="fas fa-share-alt"></i> Announce Your Attendance!</h3>
+                    <p style="margin-bottom: 1.5rem; color: var(--c-text-muted);">Let your professional network know you are participating. Upload your photo to generate your personalized EMISC 2027 delegate badge:</p>
+                    
+                    <div class="badge-controls" style="margin-bottom: 1.5rem;">
+                        <input type="file" id="profile-upload" accept="image/*" class="custom-file-input" style="display: none;">
+                        <label for="profile-upload" class="btn btn-primary" style="cursor: pointer; display: inline-flex;">
+                            <i class="fas fa-cloud-upload-alt"></i> Upload Delegate Photo
+                        </label>
+                    </div>
+
+                    <!-- Hidden Canvas for drawing -->
+                    <canvas id="badge-canvas" width="1080" height="1080" style="display: none;"></canvas>
+
+                    <!-- Preview Container -->
+                    <div id="badge-preview-container" style="display: none; max-width: 420px; margin: 0 auto; margin-top: 1rem;">
+                        <img id="badge-preview" src="" alt="Your Custom Badge" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); margin-bottom: 1.5rem;">
+                        
+                        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                            <button id="download-badge-btn" class="btn btn-gold">
+                                <i class="fas fa-download"></i> Download Badge (PNG)
+                            </button>
+                            <button id="copy-caption-btn" class="btn btn-primary" style="background: var(--c-navy-dark);">
+                                <i class="fas fa-copy"></i> Copy LinkedIn Post
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 3rem;">
+                    <a href="index.html" class="btn btn-outline-blue">
+                        <i class="fas fa-arrow-left"></i> Return to Conference Homepage
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bottom" style="border: none; padding: 2rem 0;">
+            <div class="container">
+                <p>&copy; 2027 MIS Africa. All rights reserved. &bull; Inquiries: <a href="mailto:emisc2027@misafrica.org" style="color: var(--c-blue-primary); font-weight: 600;">emisc2027@misafrica.org</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/logo-base64.js"></script>
+    <script src="js/mobile-nav.js"></script>
+    <script src="js/registration.js?v=8"></script>
+</body>
+
+</html>

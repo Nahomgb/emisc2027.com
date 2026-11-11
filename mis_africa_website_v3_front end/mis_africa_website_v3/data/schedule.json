@@ -1,0 +1,185 @@
+[
+  {
+    "date": "April 13 | Monday",
+    "events": [
+      {
+        "time": "08:30 am - 04:00 pm",
+        "title": "Basic Laparoscopic Skills Training - Day 1",
+        "location": "MCM Comprehensive Specialized Hospital",
+        "speaker": "Drs. Segni Wako, Filagot Mikru, Philimon Getu and Muse Freneh",
+        "avatars": [
+          {
+            "name": "Dr. Sengi Bekele Wako",
+            "image": "assets/images/dr_segni_bekele.png"
+          },
+          {
+            "name": "Dr. Filagot Bizuneh",
+            "image": "assets/images/dr_filagot_bizuneh.jpg"
+          },
+          {
+            "name": "Dr. Philimon Getu",
+            "image": "assets/images/Dr. Philimon Getu.jpg"
+          },
+          {
+            "name": "Dr. Muse Freneh",
+            "image": "assets/images/dr.Mussie_Freneh.png"
+          }
+        ],
+        "description": "A comprehensive hands-on training program focused on basic laparoscopic surgical techniques for residents."
+      }
+    ]
+  },
+  {
+    "date": "April 14 | Tuesday",
+    "events": [
+      {
+        "time": "08:30 am - 04:00 pm",
+        "title": "Basic Laparoscopic Skills Training - Day 2",
+        "location": "MCM Comprehensive Specialized Hospital",
+        "speaker": "Drs. Segni Wako, Filagot Mikru, Philimon Getu and Muse Freneh",
+        "avatars": [
+          {
+            "name": "Dr. Sengi Bekele Wako",
+            "image": "assets/images/dr_segni_bekele.png"
+          },
+          {
+            "name": "Dr. Filagot Bizuneh",
+            "image": "assets/images/dr_filagot_bizuneh.jpg"
+          },
+          {
+            "name": "Dr. Philimon Getu",
+            "image": "assets/images/Dr. Philimon Getu.jpg"
+          },
+          {
+            "name": "Dr. Muse Freneh",
+            "image": "assets/images/dr.Mussie_Freneh.png"
+          }
+        ],
+        "description": "Continuation of hands-on basic laparoscopic skills training."
+      }
+    ]
+  },
+  {
+    "date": "April 15 | Wednesday",
+    "events": [
+      {
+        "time": "08:30 am - 04:00 pm",
+        "title": "Live surgery - Day 1 - Basic Laparascopy skill training with Live surgery",
+        "location": "MCM Comprehensive Specialized Hospital",
+        "speaker": "Dr. Efeson Thomas",
+        "avatars": [
+          {
+            "name": "Dr. Efeson Thomas",
+            "image": "assets/images/dr_efeson_thomas.jpg"
+          }
+        ],
+        "description": "Experience live surgical procedures broadcast directly from the Operating Room with expert insights."
+      }
+    ]
+  },
+  {
+    "date": "April 16 | Thursday",
+    "events": [
+      {
+        "time": "08:30 am - 11:30 am",
+        "title": "Live Surgery - Day 2",
+        "location": "MCM Comprehensive Specialized Hospital",
+        "speaker": "Dr. Efeson Thomas",
+        "avatars": [
+          {
+            "name": "Dr. Efeson Thomas",
+            "image": "assets/images/dr_efeson_thomas.jpg"
+          }
+        ],
+        "description": "Experience live surgical procedures broadcast directly from the Operating Room with expert insights."
+      },
+      {
+        "time": "01:30 pm - 04:30 pm",
+        "title": "Becoming an Effective Surgical Educator in Modern Surgical Training",
+        "location": "MCM Comprehensive Specialized Hospital",
+        "speaker": "Drs. David Jeffcoach, Linda Zhang and Dan Poenaru",
+        "avatars": [
+          {
+            "name": "Dr. David Jeffcoach",
+            "image": "assets/images/dr_david_jeffcoach.png"
+          },
+          {
+            "name": "Dr. Linda P. Zhang",
+            "image": "assets/images/dr_linda_p_zhang.png"
+          },
+          {
+            "name": "Dr. Dan Poenaru",
+            "image": "assets/images/dr_dan_poenaru.jpg"
+          }
+        ],
+        "description": "A specialized half-day workshop focusing on advanced pedagogical techniques and strategies for surgical educators."
+      }
+    ]
+  },
+  {
+    "date": "April 17 | Friday",
+    "events": [
+      {
+        "time": "07:00 am - 04:30 pm",
+        "title": "MIS Conference",
+        "location": "MCM Comprehensive Specialized Hospital",
+        "speaker": "MIS Africa",
+        "avatars": [
+          {
+            "name": "Dr. Efeson Thomas",
+            "image": "assets/images/dr_efeson_thomas.jpg"
+          },
+          {
+            "name": "Dr. Feven Mekonenn Tadesse",
+            "image": "assets/images/Dr._feven_Mekonenn.jpeg"
+          },
+          {
+            "name": "Dr. Filagot Bizuneh",
+            "image": "assets/images/dr_filagot_bizuneh.jpg"
+          },
+          {
+            "name": "Dr. Girma Ababi",
+            "image": "assets/images/dr_girma_ababi.jpg"
+          },
+          {
+            "name": "Dr. Henok Teshome",
+            "image": "assets/images/dr_henok_teshome.jpg"
+          },
+          {
+            "name": "Dr. Marie-Cécile Blanchet",
+            "image": "assets/images/dr_marie_cecile_blanchet.png"
+          },
+          {
+            "name": "Dr. Muse Freneh",
+            "image": "assets/images/dr.Mussie_Freneh.png"
+          },
+          {
+            "name": "Dr. Olivier Beatrix",
+            "image": "assets/images/dr_olivier_beatrix.png"
+          },
+          {
+            "name": "Dr. Philimon Getu",
+            "image": "assets/images/Dr. Philimon Getu.jpg"
+          },
+          {
+            "name": "Dr. Rahel Abebayehu",
+            "image": "assets/images/Dr._rahel_abebayehu.jpeg"
+          },
+          {
+            "name": "Dr. Sengi Bekele Wako",
+            "image": "assets/images/dr_segni_bekele.png"
+          },
+          {
+            "name": "Dr. Surafel Mulatu Djote",
+            "image": "assets/images/dr_surafel_mulatu.jpg"
+          },
+          {
+            "name": "Prof. Song-Jung Kim, PhD, FAHA, MS, MDiv",
+            "image": "assets/images/Prof. Song-Jung Kim.jpeg"
+          }
+        ],
+        "description": "The 1st Ethiopian Minimally Invasive Surgery Conference. A full-day meeting featuring expert panels, research presentations, and networking."
+      }
+    ]
+  }
+]

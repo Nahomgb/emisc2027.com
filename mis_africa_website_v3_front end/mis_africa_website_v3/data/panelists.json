@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Dr. Efeson Thomas",
+        "role": "MD, FACS, FCS(ECSA) • General, Colorectal & Minimally Invasive Surgery",
+        "institution": "MCM-CSH (Korea Hospital)",
+        "image": "assets/images/dr_efeson_thomas.jpg",
+        "bio": "Dr. Efeson Thomas is a general and colorectal surgeon with expertise in minimally invasive gastrointestinal surgery and endoscopy. He serves as Chair of the Department of Surgery at Korean Hospital, Assistant Professor of Surgery at MMC, and Co-founder & CEO of MIS Africa. He has over nine years of experience in surgical education, minimally invasive surgery, and clinical leadership."
+    },
+    {
+        "name": "Dr. Feven Mekonenn Tadesse",
+        "role": "MD • General Surgeon, Assistant Professor of Surgery",
+        "institution": "Ayder Comprehensive Specialized Hospital, Mekele, Ethiopia",
+        "image": "assets/images/Dr._feven_Mekonenn.jpeg",
+        "bio": "Dr. Feven Mekonenn Tadesse is a general surgeon and Assistant Professor of Surgery with interests in minimally invasive surgery, ERAS implementation, surgical education, mentorship, and health equity. She is actively involved in global surgery advocacy and institutional efforts to strengthen surgical care and training."
+    },
+    {
+        "name": "Dr. Filagot Bizuneh",
+        "role": "MD, FCS-ECSA, General Surgery",
+        "institution": "MCM-CSH (Korean Hospital)",
+        "image": "assets/images/dr_filagot_bizuneh.jpg",
+        "bio": "Dr. Filagot Bizuneh is a general surgeon and surgical educator at MCM-CSH (Korean Hospital). He serves as Co-founder and Vice Chairman of the Board of Directors at MIS Africa, Assistant Professor of Surgery, and Postgraduate Surgery Program Director at MMC. His work focuses on surgical training, academic leadership, and advancing minimally invasive surgery education in Africa."
+    },
+    {
+        "name": "Dr. Girma Ababi",
+        "role": "MD • Consultant Pathologist, Founder & CEO, Liyana Healthcare PLC",
+        "institution": "Liyana Healthcare PLC",
+        "image": "assets/images/dr_girma_ababi.jpg",
+        "bio": "Dr. Girma Ababi is a consultant pathologist and healthcare leader serving as Founder and CEO of Liyana Healthcare PLC. He is also Board Chairman of Liyana Digital HCS, Liyana Oxy Manufacturing, and Oncopathology Diagnostic Center, Vice President of the Ethiopian Healthcare Federation, and a policy advisor with broad experience in healthcare innovation and system development."
+    },
+    {
+        "name": "Dr. Henok Teshome",
+        "role": "MD, FACS • Hepatobiliary and Pancreatic Surgeon",
+        "institution": "Associate Professor of Surgery, St. Paul’s Hospital Millennium Medical College",
+        "image": "assets/images/dr_henok_teshome.jpg",
+        "bio": "Dr. Henok Teshome is a hepatobiliary and pancreatic surgeon and Associate Professor of Surgery at St. Paul’s Hospital Millennium Medical College. He is experienced in minimally invasive surgery and has played a significant role in surgical education and residency training, including serving as Program Director of the residency program."
+    },
+    {
+        "name": "Dr. Marie-Cécile Blanchet",
+        "role": "MD • Digestive, Bariatric & Minimally Invasive Surgeon",
+        "institution": "Centre Lyonnais de Chirurgie Digestive, Lyon, France; President, Med Surg Support",
+        "image": "assets/images/dr_marie_cecile_blanchet.png",
+        "bio": "Dr. Marie-Cécile Blanchet is a digestive and bariatric surgeon with advanced expertise in minimally invasive, obesity, abdominal wall, and colorectal surgery. Based in Lyon, France, she combines high-level clinical practice with international surgical leadership through Med Surg Support, a humanitarian endowment fund she co-founded to modernize hospitals, expand laparoscopic surgery, and strengthen surgical training in underserved communities worldwide, including major initiatives in Ethiopia."
+    },
+    {
+        "name": "Dr. Muse Freneh",
+        "role": "MD, FCS (ECSA) • Pediatric Surgeon",
+        "institution": "MCSH (Korean Hospital)",
+        "image": "assets/images/dr.Mussie_Freneh.png",
+        "bio": "Dr. Muse Freneh is a pediatric surgeon at MCSH (Korean Hospital) with experience in laparoscopic surgery and surgical research. He received the 2024 Judah Folkman Award from the American Pediatric Surgical Association for outstanding research and was recognized as the Best Paediatric Surgery Candidate by COSECSA in 2025."
+    },
+    {
+        "name": "Dr. Olivier Beatrix",
+        "role": "MD • Digestive & Minimally Invasive Surgeon",
+        "institution": "Med Surg Support",
+        "image": "assets/images/dr_olivier_beatrix.png",
+        "bio": "Dr. Olivier Beatrix is a digestive surgeon with expertise in minimally invasive surgery and laparoscopic training. Through his leadership with Med Surg Support, he has played a key role in expanding access to laparoscopy, surgical education, and hospital capacity building in Ethiopia, including the successful introduction of first-time laparoscopic cholecystectomy programs in university hospitals."
+    },
+    {
+        "name": "Dr. Philimon Getu",
+        "role": "MD, FCS (ECSA) • General Surgeon",
+        "institution": "MCSH (Korean Hospital)",
+        "image": "assets/images/Dr. Philimon Getu.jpg",
+        "bio": "Dr. Philimon Getu is a general surgeon and Assistant Professor of Surgery at MCSH (Korean Hospital). He has expertise in laparoscopic surgery, surgical research, and surgical education, with a strong commitment to advancing high-quality patient care and academic excellence. He was awarded the Lindsay Stewart Prize in 2023 at the COSECSA Council Meeting."
+    },
+    {
+        "name": "Dr. Rahel Abebayehu",
+        "role": "MD, FCS(ECSA) • General, Vascular & Endovascular Surgery",
+        "institution": "St. Peter’s Specialized Hospital",
+        "image": "assets/images/Dr._rahel_abebayehu.jpeg",
+        "bio": "Dr. Rahel Abebayehu is a general and vascular surgeon with subspecialty training in vascular and endovascular surgery. She serves in both clinical and academic roles, with interests in surgical education, research collaboration, global health, and professional development."
+    },
+    {
+        "name": "Dr. Sengi Bekele Wako",
+        "role": "MD, FCS(ECSA) • Surgeon | Co-founder & Board Chair, MIS Africa",
+        "institution": "Grand Bishoftu Hospital",
+        "image": "assets/images/dr_segni_bekele.png",
+        "bio": "Dr. Segni Bekele is a surgeon with over nine years of experience in clinical care, surgical education, and leadership. He is Co-founder and Board Chair of MIS Africa, with experience in laparoscopic surgery and a strong commitment to advancing minimally invasive surgery and medical education."
+    },
+    {
+        "name": "Dr. Surafel Mulatu Djote",
+        "role": "MD, FACS, FCS (ECSA) • General, Advanced Laparoscopic & Colorectal Surgeon",
+        "institution": "Yekatit 12 Hospital Medical College",
+        "image": "assets/images/dr_surafel_mulatu.jpg",
+        "bio": "Dr. Surafel Mulatu Djote is a consultant surgeon with expertise in general, advanced laparoscopic, and colorectal surgery. He is the Founder and CEO of GoLap and is committed to advancing minimally invasive surgery while improving patient outcomes through innovation."
+    },
+    {
+        "name": "Prof. Dan Poenaru",
+        "role": "MD, CM, PhD • Professor of Pediatric Surgery",
+        "institution": "McGill University",
+        "image": "assets/images/dr_dan_poenaru.jpg",
+        "bio": "Prof. Dan Poenaru is a world-renowned pediatric surgeon, global surgery leader, and senior scientist at McGill University. He leads global pediatric surgical research and innovation, has published extensively, coauthored a major pediatric surgery reference text for Africa, and serves on several editorial boards. Deeply committed to expanding safe surgery for children across Africa, he is a founding member of GICS and has contributed to PAPSA, PAACS, and multiple international pediatric surgery initiatives. He was appointed a Member of the Order of Canada in 2024 for his contributions to global pediatric surgical equity."
+    },
+    {
+        "name": "Prof. Linda P. Zhang",
+        "role": "MD, FACS • Professor of Surgery | Director of Global Surgery",
+        "institution": "Mount Sinai Hospital, New York",
+        "image": "assets/images/dr_linda_p_zhang.png",
+        "bio": "Prof. Linda P. Zhang, MD, FACS is a board-certified general surgeon with expertise in foregut, complex hernia, bariatric, minimally invasive, and robotic surgery. A global surgery leader, she has advanced laparoscopic training, residency development, and equitable surgical access across multiple countries worldwide. She also serves as Global Affairs Committee Co-Chair and is a recipient of the Academic Global Surgeon Award from the American College of Surgeons."
+    },
+    {
+        "name": "Prof. Song-Jung Kim, PhD, FAHA, MS, MDiv",
+        "role": "Dean & Professor, MMC; CEO, MID",
+        "institution": "Myungsung Medical College / MID Healthcare System",
+        "image": "assets/images/Prof. Song-Jung Kim.jpeg",
+        "bio": "Prof. Song-Jung Kim is a distinguished academic and healthcare leader serving as Dean of Myungsung Medical College and CEO of MID Healthcare System. With senior leadership roles across Ethiopia, Haiti, and major U.S. medical institutions, he has led advances in medical education, hospital development, faculty training, and institutional growth, bringing global expertise in academic administration, healthcare systems, and biomedical sciences."
+    }
+]

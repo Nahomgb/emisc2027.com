@@ -1,0 +1,91 @@
+/* Locked Registration Section */
+.locked-section {
+    padding: var(--section-padding);
+    background-color: var(--white);
+    position: relative;
+    overflow: hidden;
+}
+
+.locked-content-wrapper {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    background: #f9f9f9;
+    min-height: 300px;
+}
+
+.blurred-content {
+    filter: blur(8px);
+    opacity: 0.6;
+    padding: 2rem;
+    pointer-events: none;
+    user-select: none;
+}
+
+.mock-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.mock-row {
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.mock-row.short {
+    width: 60%;
+}
+
+.mock-button {
+    height: 50px;
+    width: 30%;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.locked-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4);
+    z-index: 10;
+}
+
+.locked-message {
+    text-align: center;
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid var(--accent-color);
+}
+
+.locked-message i {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.locked-message h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.locked-message p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    font-weight: 500;
+}

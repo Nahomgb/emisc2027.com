@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMISC 2026 Photo Gallery — Inaugural Archive | MIS Africa</title>
+    <meta name="description" content="Official photo archive from the inaugural 1st Ethiopian Minimally Invasive Surgery Conference (EMISC 2026) in Addis Ababa. Highlights from simulation training, operating theater telecasts, lecture halls, and award ceremonies.">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        .gallery-page-hero {
+            background: linear-gradient(135deg, #052735 0%, #083d55 60%, #0a4f6e 100%);
+            padding: 7.5rem 0 4.5rem;
+            text-align: center;
+            color: #ffffff;
+            position: relative;
+        }
+
+        .gallery-page-hero h1 {
+            font-size: clamp(2rem, 4.5vw, 3.2rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            color: #ffffff;
+        }
+
+        .gallery-page-hero p {
+            font-size: 1.15rem;
+            color: #94a3b8;
+            max-width: 720px;
+            margin: 0 auto 1.8rem;
+            line-height: 1.7;
+        }
+
+        .gallery-toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1.25rem 1.5rem;
+            background: #ffffff;
+            border: 1px solid var(--c-border-subtle);
+            border-radius: var(--r-md);
+            margin-bottom: 2.5rem;
+            box-shadow: 0 4px 16px rgba(8, 56, 76, 0.05);
+        }
+
+        .gallery-count-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 700;
+            color: var(--c-navy-dark);
+            font-size: 1rem;
+        }
+
+        .gallery-count-badge i {
+            color: var(--c-blue-primary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Floating Navigation Bar -->
+    <div class="site-nav-wrapper">
+        <header class="nav-island">
+            <a href="index.html" class="nav-brand">
+                <img src="assets/images/logo.png" alt="MIS Africa Logo" class="nav-brand-logo">
+                <div class="nav-brand-text">
+                    <span class="nav-brand-title">MIS AFRICA</span>
+                    <span class="nav-brand-tag">Surgical Excellence</span>
+                </div>
+            </a>
+
+            <button class="mobile-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About Us</a>
+                <a href="index.html#tracks" class="nav-link">Pillars</a>
+                <a href="index.html#vision" class="nav-link">2027 Vision</a>
+                <a href="index.html#retrospect" class="nav-link">2026 Recap</a>
+                <a href="gallery.html" class="nav-link active">Gallery Folder</a>
+                <a href="registration.html" class="nav-action-btn">
+                    <i class="fas fa-ticket-alt"></i> Register 2027
+                </a>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Gallery Hero Header -->
+    <section class="gallery-page-hero">
+        <div class="container">
+            <span style="display: inline-block; background: rgba(34,211,238,0.15); color: #22d3ee; font-size: 0.85rem; font-weight: 700; padding: 0.4rem 1rem; border-radius: 999px; margin-bottom: 1.25rem; text-transform: uppercase; letter-spacing: 0.08em;">
+                <i class="fas fa-folder-open"></i> Inaugural Conference Archive
+            </span>
+            <h1>EMISC 2026 Photo Gallery Folder</h1>
+            <p>
+                Highlights from simulation training, operating theater telecasts, lecture halls, and award ceremonies from the inaugural EMISC 2026 in Addis Ababa, Ethiopia.
+            </p>
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                <a href="index.html#retrospect" class="btn btn-outline" style="border-color: rgba(255,255,255,0.4); color: #ffffff;">
+                    <i class="fas fa-arrow-left"></i> Return to Main Website
+                </a>
+                <a href="registration.html" class="btn btn-primary">
+                    <i class="fas fa-ticket-alt"></i> Register for EMISC 2027
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid Section -->
+    <section class="section-wrapper" style="background: #f8fafc; padding: 4rem 0 6rem;">
+        <div class="container">
+            <div class="gallery-toolbar">
+                <div class="gallery-count-badge">
+                    <i class="fas fa-images"></i> 17 Archival Photographs &bull; Addis Ababa, April 2026
+                </div>
+                <div style="font-size: 0.92rem; color: var(--c-text-muted);">
+                    <i class="fas fa-search-plus" style="color: var(--c-blue-primary);"></i> Click any photo to view full resolution
+                </div>
+            </div>
+
+            <div class="gallery-grid" id="emisc2026-gallery">
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 0.jpg', 'EMISC 2026 — Simulation & Training')">
+                    <img src="assets/images/EMISC 0.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 1.jpg', 'EMISC 2026 — Faculty & Mentorship')">
+                    <img src="assets/images/EMISC 1.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 2.jpg', 'EMISC 2026 — Hands-on Simulation')">
+                    <img src="assets/images/EMISC 2.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 3.jpg', 'EMISC 2026 — Plenary Sessions')">
+                    <img src="assets/images/EMISC 3.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 4.jpg', 'EMISC 2026 — OR Telecast')">
+                    <img src="assets/images/EMISC 4.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC5.jpg', 'EMISC 2026 — Surgical Dry Lab')">
+                    <img src="assets/images/EMISC5.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 6.jpg', 'EMISC 2026 — Clinical Discussions')">
+                    <img src="assets/images/EMISC 6.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 7.jpg', 'EMISC 2026 — Resident Training')">
+                    <img src="assets/images/EMISC 7.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 8.jpg', 'EMISC 2026 — Workshop Demonstrations')">
+                    <img src="assets/images/EMISC 8.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 9.jpg', 'EMISC 2026 — Surgical Masterclass')">
+                    <img src="assets/images/EMISC 9.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 10.jpg', 'EMISC 2026 — International Faculty')">
+                    <img src="assets/images/EMISC 10.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 11.jpg', 'EMISC 2026 — Keynote & Dialogue')">
+                    <img src="assets/images/EMISC 11.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 12.jpg', 'EMISC 2026 — Interactive Audience')">
+                    <img src="assets/images/EMISC 12.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 13.jpg', 'EMISC 2026 — Operating Room Team')">
+                    <img src="assets/images/EMISC 13.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 14.jpg', 'EMISC 2026 — Technical Skills Lab')">
+                    <img src="assets/images/EMISC 14.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 15.jpg', 'EMISC 2026 — Award Ceremony')">
+                    <img src="assets/images/EMISC 15.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+                <div class="gallery-item" onclick="openImageModal('assets/images/EMISC 16.jpg', 'EMISC 2026 — Closing Ceremony')">
+                    <img src="assets/images/EMISC 16.jpg" alt="EMISC 2026" loading="lazy">
+                    <div class="gallery-caption">EMISC 2026</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-wrap">
+        <div class="container footer-content-grid">
+            <div class="footer-col">
+                <div class="nav-brand" style="margin-bottom: 1.25rem;">
+                    <img src="assets/images/logo.png" alt="MIS Africa Logo" style="height: 42px; filter: brightness(0) invert(1);">
+                    <div class="nav-brand-text">
+                        <span class="nav-brand-title">MIS AFRICA</span>
+                        <span class="nav-brand-tag">Surgical Excellence</span>
+                    </div>
+                </div>
+                <p class="footer-tagline-text">
+                    2nd Ethiopian Minimally Invasive Surgery Conference &bull; EMISC 2027<br>
+                    Advancing surgical standards through evidence-based training and resilient healthcare systems.
+                </p>
+                <div class="social-pill-row">
+                    <a href="https://www.youtube.com/@MISAfrica" target="_blank" rel="noopener" class="social-pill" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/misafrica/" target="_blank" rel="noopener" class="social-pill" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:emisc2027@misafrica.org" class="social-pill" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <div class="footer-contact-item"><i class="fas fa-phone"></i> +251 703 200 410</div>
+                <div class="footer-contact-item"><i class="fas fa-envelope"></i> <a href="mailto:emisc2027@misafrica.org">emisc2027@misafrica.org</a></div>
+                <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</div>
+                <div class="footer-contact-item"><i class="fas fa-calendar-alt"></i> January 25&#x2013;29, 2027</div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul style="list-style: none; padding: 0; line-height: 2;">
+                    <li><a href="index.html" style="color: #cbd5e1;"><i class="fas fa-chevron-right" style="font-size: 0.8rem; margin-right: 0.5rem; color: var(--c-cyan-neon);"></i> Home</a></li>
+                    <li><a href="index.html#retrospect" style="color: #cbd5e1;"><i class="fas fa-chevron-right" style="font-size: 0.8rem; margin-right: 0.5rem; color: var(--c-cyan-neon);"></i> EMIS 2026 Recap</a></li>
+                    <li><a href="evidence.html" style="color: #cbd5e1;"><i class="fas fa-chevron-right" style="font-size: 0.8rem; margin-right: 0.5rem; color: var(--c-cyan-neon);"></i> Academic Evidence</a></li>
+                    <li><a href="registration.html" style="color: #cbd5e1;"><i class="fas fa-chevron-right" style="font-size: 0.8rem; margin-right: 0.5rem; color: var(--c-cyan-neon);"></i> Register for 2027</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright-strip">
+            <div class="container">
+                <p>&copy; 2027 MIS Africa (Minimally Invasive Surgery Africa). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/schedule.js"></script>
+    <script src="js/mobile-nav.js"></script>
+</body>
+
+</html>
